@@ -1,0 +1,15 @@
+Package: padicRNA
+Title: Application of p-adic metric
+Version: 0.0.0.9000
+Authors@R: person("Ivan", "Imaz", email = "ii236@cam.ac.uk", role = c("aut", "cre"))
+Description: Computes p-adic metric and applies dimensionality reduction to scRNAseq data.
+Depends: R (>= 3.4.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: data.table,
+    doMC,
+    foreach,
+    roots,
+    Rtsne
